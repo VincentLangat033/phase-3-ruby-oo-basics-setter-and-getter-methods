@@ -1,15 +1,22 @@
 class Person
-    def name=name
+    # attr_accessor :name
+    def name name
         @name=name
     end
     def name
         @name
     end
-    def job=job
+    def num=name
+        @name=name
+    end
+    def job job
         @job=job
     end
     def job
         @job
+    end
+    def job=job
+        @job=job
     end
 
 end
