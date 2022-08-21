@@ -1,3 +1,28 @@
 class Dog
+    # attr_accessor :name
+    # attr_accessor :breed
+  
+    def name=name
+        @name=name
+    end
+    def name
+        @name
+    end
+    def breed=breed
+        @breed=breed
+    end
+    def breed
+        @breed
+    end
 
+  
 end
+
+r=Dog.new
+puts r.name = ("Rex")
+snoopy=Dog.new
+snoopy.breed = "Beagle"
+
+
+
+
